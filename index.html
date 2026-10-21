@@ -31,20 +31,90 @@
  .empty { color: #777; font-size: 13px; }
  a { color: #2563eb; }
 </style>
+<script src="echarts.min.js"></script>
 </head>
 <body>
 <header>
   <h1>实盘策略公示</h1>
   <nav><button class="tab active" onclick="showTab('底部反转1')">底部反转1</button><button class="tab" onclick="showTab('小市值1')">小市值1</button></nav>
 </header>
-<main><section id="sec-底部反转1" class="strategy current"><h2>底部反转1</h2><div class="meta">更新时间：2026-10-21 10:37　|　模拟总资产：19004613.17　|　数据目录：<a href="live/底部反转1/2026-10-20/strategy.json">live/底部反转1/2026-10-20/</a></div><h2>净值对照（近 30 个数据日，各自首日=1）</h2><table><tr><th>日期</th><th>模拟总资产</th><th>模拟净值</th><th>真实总资产</th><th>真实净资产</th><th>真实净值</th></tr><tr><td>2026-10-09</td><td>19004613.17</td><td>1.0</td><td>0.0</td><td></td><td>0.0</td></tr><tr><td>2026-10-12</td><td>19004613.17</td><td>1.0</td><td>18829414.65</td><td></td><td>1.0</td></tr><tr><td>2026-10-13</td><td>19004613.17</td><td>1.0</td><td>18999660.36</td><td></td><td>1.009</td></tr><tr><td>2026-10-14</td><td>19004613.17</td><td>1.0</td><td>19004613.17</td><td>19004613.17</td><td>1.0093</td></tr><tr><td>2026-10-15</td><td>19004613.17</td><td>1.0</td><td>19004613.17</td><td>19004613.17</td><td>1.0093</td></tr><tr><td>2026-10-16</td><td>19004613.17</td><td>1.0</td><td>19004613.17</td><td>19004613.17</td><td>1.0093</td></tr><tr><td>2026-10-19</td><td>19004613.17</td><td>1.0</td><td>19004613.17</td><td>19004613.17</td><td>1.0093</td></tr><tr><td>2026-10-20</td><td>19004613.17</td><td>1.0</td><td>19004613.17</td><td>19004613.17</td><td>1.0093</td></tr><tr><td>2026-10-21</td><td>19004613.17</td><td>1.0</td><td>19004613.17</td><td>19004613.17</td><td>1.0093</td></tr></table><h2>模拟持仓（最新）</h2><p class="empty">当前空仓。</p><h2>券商持仓（券商回报快照）</h2><p class="empty">暂无券商持仓回报。</p><h2>真实成交记录（共 0 个交易日，点击日期行加载当日明细）</h2><p class="empty">暂无成交记录。</p></section><section id="sec-小市值1" class="strategy"><h2>小市值1</h2><div class="meta">更新时间：2026-10-21 10:37　|　模拟总资产：20791119.83　|　数据目录：<a href="live/小市值1/2026-10-20/strategy.json">live/小市值1/2026-10-20/</a></div><h2>净值对照（近 30 个数据日，各自首日=1）</h2><table><tr><th>日期</th><th>模拟总资产</th><th>模拟净值</th><th>真实总资产</th><th>真实净资产</th><th>真实净值</th></tr><tr><td>2026-10-14</td><td>20000000.0</td><td>1.0</td><td>20000000.0</td><td>20000000.0</td><td>1.0</td></tr><tr><td>2026-10-15</td><td>20000000.0</td><td>1.0</td><td>20000000.0</td><td>20000000.0</td><td>1.0</td></tr><tr><td>2026-10-16</td><td>20000000.0</td><td>1.0</td><td>20000000.0</td><td>20000000.0</td><td>1.0</td></tr><tr><td>2026-10-19</td><td>20393167.52</td><td>1.0197</td><td>20130003.99</td><td>20130003.99</td><td>1.0065</td></tr><tr><td>2026-10-20</td><td>20417260.14</td><td>1.0209</td><td>20791119.83</td><td>20791119.83</td><td>1.0396</td></tr><tr><td>2026-10-21</td><td>18929409.19</td><td>0.9465</td><td>21088026.64</td><td>21088026.64</td><td>1.0544</td></tr></table><h2>模拟持仓（最新）</h2><p class="empty">当前空仓。</p><h2>券商持仓（券商回报快照）</h2><table><tr><th>代码</th><th>名称</th><th>股数</th><th>买入日</th><th>回报时间</th></tr><tr><td>001218</td><td>丽臣实业</td><td>40600</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>001278</td><td>一彬科技</td><td>81500</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>002835</td><td>同为股份</td><td>71800</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>002863</td><td>今飞凯达</td><td>202600</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>003038</td><td>鑫铂股份</td><td>102600</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>300616</td><td>尚品宅配</td><td>108100</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>300645</td><td>正元智慧</td><td>106200</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>300659</td><td>中孚信息</td><td>86900</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>600448</td><td>华纺股份</td><td>504500</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>600470</td><td>六国化工</td><td>186998</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>603180</td><td>金牌家居</td><td>73300</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>603385</td><td>惠达卫浴</td><td>239500</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>603801</td><td>志邦家居</td><td>163300</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>605166</td><td>聚合顺</td><td>126800</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>688288</td><td>鸿泉技术</td><td>81400</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>688369</td><td>致远互联</td><td>68200</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>688391</td><td>钜泉科技</td><td>40796</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>688737</td><td>中自科技</td><td>90915</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr></table><h2>真实成交记录（共 1 个交易日，点击日期行加载当日明细）</h2><details data-slug="小市值1" data-day="2026-10-19"><summary>2026-10-19 · 996 笔（买入 996 / 卖出 0） · 合计金额 19,938,178</summary><div class="trade-body"><p class="empty">展开即加载当日明细…</p></div></details></section></main>
+<main><section id="sec-底部反转1" class="strategy current"><h2>底部反转1</h2><div class="meta">更新时间：2026-10-21 10:45　|　模拟总资产：19004613.17　|　数据目录：<a href="live/底部反转1/2026-10-20/strategy.json">live/底部反转1/2026-10-20/</a></div><h2>净值对照（近 30 个数据日，各自首日=1）</h2><div id="navChart-底部反转1" style="width:100%;max-width:980px;height:340px;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.06);margin-bottom:6px;"></div><script>window['NAV_DATA_底部反转1']={"dates": ["2026-10-09", "2026-10-12", "2026-10-13", "2026-10-14", "2026-10-15", "2026-10-16", "2026-10-19", "2026-10-20", "2026-10-21"], "sim": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "real": [0.0, 1.0, 1.009, 1.0093, 1.0093, 1.0093, 1.0093, 1.0093, 1.0093], "real_net": {"2026-10-14": 19004613.17, "2026-10-15": 19004613.17, "2026-10-16": 19004613.17, "2026-10-19": 19004613.17, "2026-10-20": 19004613.17, "2026-10-21": 19004613.17}, "bench": [1.0, 0.99566, 0.99661, 0.987792, 0.972125, 0.974432, 0.978271, 0.979438, 0.975983]};</script><details><summary>净值明细表（近 30 日）</summary><div class="trade-body"><table><tr><th>日期</th><th>模拟总资产</th><th>模拟净值</th><th>真实总资产</th><th>真实净资产</th><th>真实净值</th></tr><tr><td>2026-10-09</td><td>19004613.17</td><td>1.0</td><td>0.0</td><td></td><td>0.0</td></tr><tr><td>2026-10-12</td><td>19004613.17</td><td>1.0</td><td>18829414.65</td><td></td><td>1.0</td></tr><tr><td>2026-10-13</td><td>19004613.17</td><td>1.0</td><td>18999660.36</td><td></td><td>1.009</td></tr><tr><td>2026-10-14</td><td>19004613.17</td><td>1.0</td><td>19004613.17</td><td>19004613.17</td><td>1.0093</td></tr><tr><td>2026-10-15</td><td>19004613.17</td><td>1.0</td><td>19004613.17</td><td>19004613.17</td><td>1.0093</td></tr><tr><td>2026-10-16</td><td>19004613.17</td><td>1.0</td><td>19004613.17</td><td>19004613.17</td><td>1.0093</td></tr><tr><td>2026-10-19</td><td>19004613.17</td><td>1.0</td><td>19004613.17</td><td>19004613.17</td><td>1.0093</td></tr><tr><td>2026-10-20</td><td>19004613.17</td><td>1.0</td><td>19004613.17</td><td>19004613.17</td><td>1.0093</td></tr><tr><td>2026-10-21</td><td>19004613.17</td><td>1.0</td><td>19004613.17</td><td>19004613.17</td><td>1.0093</td></tr></table></div></details><h2>模拟持仓（最新）</h2><p class="empty">当前空仓。</p><h2>券商持仓（券商回报快照）</h2><p class="empty">暂无券商持仓回报。</p><h2>真实成交记录（共 0 个交易日，点击日期行加载当日明细）</h2><p class="empty">暂无成交记录。</p></section><section id="sec-小市值1" class="strategy"><h2>小市值1</h2><div class="meta">更新时间：2026-10-21 10:45　|　模拟总资产：20791119.83　|　数据目录：<a href="live/小市值1/2026-10-20/strategy.json">live/小市值1/2026-10-20/</a></div><h2>净值对照（近 30 个数据日，各自首日=1）</h2><div id="navChart-小市值1" style="width:100%;max-width:980px;height:340px;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.06);margin-bottom:6px;"></div><script>window['NAV_DATA_小市值1']={"dates": ["2026-10-14", "2026-10-15", "2026-10-16", "2026-10-19", "2026-10-20", "2026-10-21"], "sim": [1.0, 1.0, 1.0, 1.0197, 1.0209, 0.9465], "real": [1.0, 1.0, 1.0, 1.0065, 1.0396, 1.0544], "real_net": {"2026-10-14": 20000000.0, "2026-10-15": 20000000.0, "2026-10-16": 20000000.0, "2026-10-19": 20130003.99, "2026-10-20": 20791119.83, "2026-10-21": 21088026.64}, "bench": [1.0, 0.98414, 0.986475, 0.990362, 0.991543, 0.988046]};</script><details><summary>净值明细表（近 30 日）</summary><div class="trade-body"><table><tr><th>日期</th><th>模拟总资产</th><th>模拟净值</th><th>真实总资产</th><th>真实净资产</th><th>真实净值</th></tr><tr><td>2026-10-14</td><td>20000000.0</td><td>1.0</td><td>20000000.0</td><td>20000000.0</td><td>1.0</td></tr><tr><td>2026-10-15</td><td>20000000.0</td><td>1.0</td><td>20000000.0</td><td>20000000.0</td><td>1.0</td></tr><tr><td>2026-10-16</td><td>20000000.0</td><td>1.0</td><td>20000000.0</td><td>20000000.0</td><td>1.0</td></tr><tr><td>2026-10-19</td><td>20393167.52</td><td>1.0197</td><td>20130003.99</td><td>20130003.99</td><td>1.0065</td></tr><tr><td>2026-10-20</td><td>20417260.14</td><td>1.0209</td><td>20791119.83</td><td>20791119.83</td><td>1.0396</td></tr><tr><td>2026-10-21</td><td>18929409.19</td><td>0.9465</td><td>21088026.64</td><td>21088026.64</td><td>1.0544</td></tr></table></div></details><h2>模拟持仓（最新）</h2><p class="empty">当前空仓。</p><h2>券商持仓（券商回报快照）</h2><table><tr><th>代码</th><th>名称</th><th>股数</th><th>买入日</th><th>回报时间</th></tr><tr><td>001218</td><td>丽臣实业</td><td>40600</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>001278</td><td>一彬科技</td><td>81500</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>002835</td><td>同为股份</td><td>71800</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>002863</td><td>今飞凯达</td><td>202600</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>003038</td><td>鑫铂股份</td><td>102600</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>300616</td><td>尚品宅配</td><td>108100</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>300645</td><td>正元智慧</td><td>106200</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>300659</td><td>中孚信息</td><td>86900</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>600448</td><td>华纺股份</td><td>504500</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>600470</td><td>六国化工</td><td>186998</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>603180</td><td>金牌家居</td><td>73300</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>603385</td><td>惠达卫浴</td><td>239500</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>603801</td><td>志邦家居</td><td>163300</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>605166</td><td>聚合顺</td><td>126800</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>688288</td><td>鸿泉技术</td><td>81400</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>688369</td><td>致远互联</td><td>68200</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>688391</td><td>钜泉科技</td><td>40796</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr><tr><td>688737</td><td>中自科技</td><td>90915</td><td>2026-10-21</td><td>2026-10-21T10:31:05</td></tr></table><h2>真实成交记录（共 1 个交易日，点击日期行加载当日明细）</h2><details data-slug="小市值1" data-day="2026-10-19"><summary>2026-10-19 · 996 笔（买入 996 / 卖出 0） · 合计金额 19,938,178</summary><div class="trade-body"><p class="empty">展开即加载当日明细…</p></div></details></section></main>
 <script>
 function showTab(slug) {
   document.querySelectorAll('.strategy').forEach(s => s.classList.remove('current'));
   document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
   document.getElementById('sec-' + slug).classList.add('current');
   event.target.classList.add('active');
+  if (window.initNavChart) initNavChart(slug);
 }
+
+// ---- 净值对照图（复刻 live.html：模拟持仓 vs 真实账户 vs 上证指数）----
+var navCharts = {};
+function pctNavText(v) {
+  if (v === null || v === undefined) return '—';
+  var p = (v - 1) * 100, sign = p > 0 ? '+' : '';
+  return Number(v).toFixed(4) + '（' + sign + p.toFixed(2) + '%）';
+}
+function fmtNet(v) {
+  if (v === null || v === undefined) return '';
+  return '¥' + Number(v).toLocaleString('zh-CN',
+    {minimumFractionDigits: 2, maximumFractionDigits: 2});
+}
+function initNavChart(slug) {
+  var d = window['NAV_DATA_' + slug];
+  var box = document.getElementById('navChart-' + slug);
+  if (!d || !box || typeof echarts === 'undefined') return;
+  if (navCharts[slug]) { navCharts[slug].resize(); return; }
+  var chart = echarts.init(box);
+  var series = [
+    { name: '模拟持仓', type: 'line', data: d.sim, showSymbol: false,
+      lineStyle: { width: 2.5, color: '#c0392b' },
+      itemStyle: { color: '#c0392b' } },
+    { name: '真实账户', type: 'line', data: d.real,
+      showSymbol: d.dates.length < 40,
+      lineStyle: { width: 2.5, color: '#1e6fba' },
+      itemStyle: { color: '#1e6fba' },
+      areaStyle: { color: 'rgba(30, 111, 186, 0.08)' } }
+  ];
+  var legend = ['模拟持仓', '真实账户'];
+  if (d.bench && d.bench.length) {
+    series.push({ name: '上证指数', type: 'line', data: d.bench,
+      showSymbol: false,
+      lineStyle: { width: 1.5, type: 'dashed', color: '#8a929e' },
+      itemStyle: { color: '#8a929e' } });
+    legend.push('上证指数');
+  }
+  chart.setOption({
+    tooltip: { trigger: 'axis', formatter: function(params) {
+      var lines = [escHtml(params[0].axisValue)];
+      params.forEach(function(p) {
+        if (p.value === null || p.value === undefined) return;
+        var line = p.marker + escHtml(p.seriesName) + '：' + pctNavText(p.value);
+        if (p.seriesName === '真实账户' &&
+            d.real_net[p.axisValue] !== undefined) {
+          line += ' · 净资产 ' + fmtNet(d.real_net[p.axisValue]);
+        }
+        lines.push(line);
+      });
+      return lines.join('<br/>');
+    }},
+    legend: { data: legend, top: 0 },
+    grid: { left: 56, right: 24, top: 36, bottom: 32 },
+    xAxis: { type: 'category', data: d.dates, boundaryGap: false },
+    yAxis: { type: 'value', scale: true,
+             axisLabel: { formatter: function(v) { return v.toFixed(3); } } },
+    series: series
+  }, { notMerge: true });
+  navCharts[slug] = chart;
+}
+window.addEventListener('resize', function() {
+  Object.keys(navCharts).forEach(function(k) { navCharts[k].resize(); });
+});
+window.addEventListener('load', function() {
+  var cur = document.querySelector('.strategy.current');
+  if (cur) initNavChart(cur.id.slice(4));
+});
+
 // ---- 成交明细按需加载：点击展开才 fetch 当日 CSV，内存 LRU 缓存最近 3 天 ----
 var TRADE_CACHE_MAX = 3;
 var tradeCache = new Map();
