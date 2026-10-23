@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-23",
+  "instance_id": "lstk-18417c815f90",
+  "name": "小市值研发费用·归档8dfc4e0b",
+  "strategy_abbrev": "小市值1",
+  "strategy_type": "smallcap_rd_exp",
+  "initial_cash": 20000000.0,
+  "params": {
+    "universe_source": "all_a",
+    "rd_domain_quantile": 0.05,
+    "top_n": 18,
+    "rebalance_frequency": "daily",
+    "weighting": "mv_inv",
+    "enable_profit_filter": false,
+    "min_listed_days": 480,
+    "regime_lookback": 40,
+    "regime_threshold": -0.07999999999999999,
+    "risk_off_exposure": 0.4,
+    "rank_buffer_multiple": 0,
+    "min_weight_delta": 0.01,
+    "order_scheme": 1,
+    "type": "smallcap_rd_exp",
+    "exec_mode": 1,
+    "ledger_mode": "independent"
+  },
+  "generated_at": "2026-10-23T15:31:04"
+}
