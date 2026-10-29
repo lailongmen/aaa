@@ -14,7 +14,7 @@
     "enable_profit_filter": false,
     "min_listed_days": 480,
     "regime_lookback": 40,
-    "regime_threshold": -0.07999999999999999,
+    "regime_threshold": -0.08,
     "risk_off_exposure": 0.4,
     "rank_buffer_multiple": 0,
     "min_weight_delta": 0.01,

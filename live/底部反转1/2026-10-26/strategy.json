@@ -26,7 +26,7 @@
     "code": null,
     "wr_low_window": 10,
     "wr_low_threshold": -85,
-    "vol_multiple_threshold": 1.7000000000000002,
+    "vol_multiple_threshold": 1.7,
     "gain_threshold": 0.02,
     "weight_per_score_calm": 0.35,
     "weight_per_score_hot": 0.2,
